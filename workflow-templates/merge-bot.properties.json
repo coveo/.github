@@ -1,0 +1,7 @@
+{
+  "name": "Merge Bot workflow setup",
+  "description": "Add a bot to handle your merge commits",
+  "iconName": "coveo",
+  "categories": ["TypeScript", "JavaScript"],
+  "filePatterns": ["package.json$"]
+}
