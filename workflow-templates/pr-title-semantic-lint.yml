@@ -1,7 +1,7 @@
 name: PrTitleSemanticLint
 on:
   pull_request:
-    branches: [ main ]
+    branches: [ $default-branch ]
     types: [opened, edited, synchronize, reopened]
 jobs:
   Lint:
