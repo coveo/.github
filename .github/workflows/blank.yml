@@ -1,0 +1,11 @@
+# Blocks all PR coming to main to prevent alteration to the company ReadMe.
+name: CI
+on:
+  pull_request:
+    branches: [ main ]
+jobs:
+  no-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fail
+        run: exit 1
