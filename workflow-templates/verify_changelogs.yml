@@ -17,3 +17,4 @@ jobs:
         #Example to change text file(s) location. It's starts at the root of the repo. Default is : unreleased-changes/*.txt
         #with:
         #  changeLogsLocation: some-location/*.txt
+        
