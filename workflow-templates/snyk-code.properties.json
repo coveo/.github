@@ -1,0 +1,5 @@
+{
+  "name": "Snyk Code",
+  "description": "Add Snyk Code scanning on your main branch and all PR towards it",
+  "iconName": "snyk"
+}
