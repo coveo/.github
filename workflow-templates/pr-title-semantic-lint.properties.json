@@ -1,7 +1,0 @@
-{
-  "name": "PR Title Linter setup",
-  "description": "Add a check to ensure the PR Title is Semantic",
-  "iconName": "coveo",
-  "categories": ["TypeScript", "JavaScript"],
-  "filePatterns": ["package.json$"]
-}
