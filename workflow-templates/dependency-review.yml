@@ -8,8 +8,7 @@ permissions:
 
 jobs:
     dependency-Review:
-      runs-on: ubuntu-latest
       uses: coveo/coveo-public-actions/.github/workflows/dependency-review.yml@main
       with:
-        - public: false
-        - distributed: true
+        public: false
+        distributed: true
