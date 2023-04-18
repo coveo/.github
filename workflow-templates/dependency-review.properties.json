@@ -1,5 +1,10 @@
 {
   "name": "Dependency Review",
-  "description": "Add Coveo dependency review",
-  "iconName": "nyanveo"
+  "description": "Configures the GitHub Dependency Review action with the Coveo configuration.",
+  "iconName": "nyanveo",
+  "categories": [
+    "continuous-integration",
+    "testing",
+    "dependency-management"
+  ]
 }
