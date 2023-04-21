@@ -1,0 +1,12 @@
+{
+  "name": "Checkov @ Coveo",
+  "description": "Configures the Checkov Action with the Coveo configuration.",
+  "iconName": "checkov",
+  "categories": [
+    "continuous-integration",
+    "testing",
+    "code-quality",
+    "HCL",
+    "Kubernetes"
+  ]
+}

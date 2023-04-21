@@ -1,0 +1,18 @@
+name: "Checkov"
+
+on:
+  workflow_dispatch: { }
+
+  push:
+    branches: [ $default-branch, $protected-branches ]
+
+  pull_request:
+    branches: [ $default-branch ]
+
+  schedule:
+    - cron: $cron-weekly
+
+jobs:
+  checkov:
+    name: Checkov
+    uses: coveo/actions/.github/workflows/checkov.yml@main
