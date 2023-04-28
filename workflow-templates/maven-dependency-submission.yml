@@ -1,0 +1,18 @@
+name: "Dependency Submission"
+
+on:
+  workflow_dispatch: { }
+
+  push:
+    branches: [ $default-branch, $protected-branches ]
+
+  pull_request:
+    branches: [ $default-branch ]
+
+  schedule:
+    - cron: $cron-weekly
+
+jobs:
+  submit-dependencies:
+    name: Dependency Submission
+    uses: coveo/actions/.github/workflows/java-maven-openjdk11-dependency-submission.yml@main

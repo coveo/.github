@@ -1,0 +1,10 @@
+{
+  "name": "Dependency Submission",
+  "description": "Configures the GitHub Maven Dependency Submission action with the Coveo configuration.",
+  "iconName": "nyanveo",
+  "categories": [
+    "continuous-integration",
+    "testing",
+    "dependency-management"
+  ]
+}
