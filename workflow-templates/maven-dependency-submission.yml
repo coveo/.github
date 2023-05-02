@@ -1,7 +1,13 @@
 name: "Dependency Submission"
 
 on:
-  workflow_dispatch: { }
+  workflow_dispatch:
+    inputs:
+      directory:
+        description: "The directory that contains the pom.xml that will be used to generate the dependency graph from"
+        default: "."
+        required: false
+        type: string
 
   push:
     branches: [ $default-branch, $protected-branches ]
@@ -16,3 +22,5 @@ jobs:
   submit-dependencies:
     name: Dependency Submission
     uses: coveo/actions/.github/workflows/java-maven-openjdk11-dependency-submission.yml@main
+    with:
+        directory: ${{ inputs.directory }}
