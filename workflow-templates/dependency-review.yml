@@ -1,4 +1,4 @@
-name: 'Dependency Review'
+name: "Dependency Review"
 
 on:
   pull_request:
@@ -9,7 +9,7 @@ permissions:
   pull-requests: write
 
 jobs:
-  dependency-Review:
+  dependency-review:
     name: Review
     uses: coveo/public-actions/.github/workflows/dependency-review.yml@main
     with:
