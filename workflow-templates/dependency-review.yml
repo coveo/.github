@@ -1,4 +1,4 @@
-name: "Dependency Review"
+t-rename: "Dependency Review"
 
 on:
   pull_request:
@@ -15,3 +15,4 @@ jobs:
     with:
       public: false
       distributed: true
+      runs-on: '["ubuntu-latest"]'
