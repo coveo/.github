@@ -15,4 +15,4 @@ on:
 jobs:
   checkov:
     name: Checkov
-    uses: coveo/actions/.github/workflows/checkov.yml@main
+    uses: coveo-platform/actions/.github/workflows/checkov.yml@main
