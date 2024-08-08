@@ -21,6 +21,6 @@ on:
 jobs:
   submit-dependencies:
     name: Dependency Submission
-    uses: coveo/actions/.github/workflows/java-maven-openjdk11-dependency-submission.yml@main
+    uses: coveo-platform/actions/.github/workflows/java-maven-openjdk11-dependency-submission.yml@main
     with:
         directory: ${{ inputs.directory }}
